@@ -24,6 +24,7 @@ public class RabbitMQConnector
 	
 	public RabbitMQConnector() throws TimeoutException,IOException
 	{
+		//test
 		configReader = ConfigReader.getConfigReader();
 		rabbitMQHost=configReader.getConfigValue("rabbitMqServer");
 		rabbitMQPortNumber=Integer.parseInt(configReader.getConfigValue("rabbitMqPortNumber"));		
