@@ -47,6 +47,7 @@ public class PublishMessageServlet extends HttpServlet
 	
 	public void doPost(HttpServletRequest request, HttpServletResponse response) 
 	{
+		// test git
 		String sendTo=request.getParameter("txtMessageTo");
 		String message= request.getParameter("txtMessage");
 		
